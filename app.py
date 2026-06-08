@@ -132,6 +132,7 @@ with tab2:
 
         lang_out = selected_lang_code
         audio_path = text_to_speech(translated, lang_out)
+        
         if audio_path:
             st.markdown("#### 🔊 Listen:")
             st.audio(audio_path)
