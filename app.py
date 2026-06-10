@@ -3,7 +3,7 @@ import os
 import tempfile
 from translator import translate_to_native, translate_to_english, get_supported_languages
 from gtts import gTTS
-import whisper
+
 
 # Page config
 st.set_page_config(
